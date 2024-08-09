@@ -65,18 +65,17 @@
         max-width: 35px;
     }
     #profile {
-        height:72vh;
+        height: 72vh;
         margin-bottom: 0;
     }
-    .about-containers, .contact-info-upper-container,
-    .btn-container {
+    .about-containers, .contact-info-upper-container, .btn-container {
         flex-wrap: wrap;
     }
     .menu-links a, .nav-links li a {
         font-size: 0.9rem;
     }
     article, .sub-detail_container, .subdetail_container, .info-item p, .contact-info a {
-        font-size:0.9rem;
+        font-size: 0.9rem;
     }
     .nav-links {
         flex-direction: column;
@@ -114,7 +113,7 @@
         padding: 0 0;
     }
     #proficiencies {
-        margin-top:5rem;
+        margin-top: 5rem;
     }
     #projects {
         padding: 5rem 0;
@@ -196,7 +195,15 @@
         font-size: 0.85rem;
         margin-bottom: 0.25rem;
     }
+    
+    #nav {
+        display: none; 
+    }
+    #hamburger-nav {
+        display: flex; 
+    }
 }
+
 
 @media screen and (max-width: 600px) {
     main {
